@@ -1,0 +1,8 @@
+; test1.def : Declares the module parameters.
+
+LIBRARY      "AGSat.dll"
+
+EXPORTS
+	AGSat_GetVersion		@1 
+	AGSat_ThreeLineSetup	@2
+	AGSat_AutoSGPSDP		@3
